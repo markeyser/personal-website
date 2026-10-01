@@ -10,6 +10,8 @@ A minimalist professional portfolio for applied AI science and engineering, buil
 - `styles.css`: responsive layout, typography, accessibility, and print styles.
 - `script.js`: accessible research tabs and footer year.
 - `assets/`: research diagrams, résumés, and favicon.
+- `diagrams/`: editable Excalidraw source scenes for the research diagrams.
+- `scripts/export-diagrams.py`: exports those scenes to SVG using the website's palette and font stacks. Run `python3 scripts/export-diagrams.py` after changing a scene or theme; refresh the PNG exports when needed.
 
 Content is based on Marcos's professional account. Keep production delivery, implemented research prototypes, and planned research extensions distinct. Do not introduce unsupported metrics or claims.
 

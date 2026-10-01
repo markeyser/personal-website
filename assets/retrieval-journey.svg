@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1498" height="1255" viewBox="26 0 1498 1255" role="img" aria-labelledby="title desc">
+<title id="title">Retrieval research: from relevance to procedural validity</title>
+<desc id="desc">Research evolution diagram. Solid connectors show capability development; dashed connectors mark research extensions. Read the adjacent webpage for the text overview.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:22px;fill:#626960;font-weight:400}
+.title,.heading,.subheading{font-family:Georgia,'Times New Roman',serif;fill:#222d28}
+.title{font-size:42px;letter-spacing:-1px}.heading{font-size:29px;letter-spacing:-.3px}.subheading{font-size:26px}
+.subtitle{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace;font-size:16px;fill:#315e4c;letter-spacing:.3px}
+.footer,.caption{font-size:19px;fill:#315e4c}
+.accent{fill:#315e4c}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#315e4c" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="26" y="0" width="1498" height="1255" fill="#f7f7f2"/>
+<text id="journey-title" class="title" text-anchor="start" data-source-width="1320" data-source-x="70">
+<tspan x="70" y="82">Retrieval research: from relevance to procedural validity</tspan>
+</text>
+<text id="journey-subtitle" class="subtitle" text-anchor="start" data-source-width="1270" data-source-x="70">
+<tspan x="70" y="117">Empirical progression  /  parallel experiments  /  evaluation-led refinement</tspan>
+</text>
+<polyline id="baseline-to-measure" points="100,178 545,178" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="measure-to-audit" points="580,178 1035,178" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<ellipse id="baseline-marker" cx="78" cy="178" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<ellipse id="measure-marker" cx="558" cy="178" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<ellipse id="audit-marker" cx="1048" cy="178" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<text id="baseline-heading" class="heading" text-anchor="start" data-source-width="430" data-source-x="70">
+<tspan x="70" y="239">1  Hybrid baseline</tspan>
+</text>
+<text id="baseline-detail" class="" text-anchor="start" data-source-width="435" data-source-x="70">
+<tspan x="70" y="275">BM25 + dense bi-encoder</tspan>
+<tspan x="70" y="301">Single-stage candidate retrieval</tspan>
+<tspan x="70" y="327">Life-insurance procedures</tspan>
+</text>
+<text id="measure-heading" class="heading" text-anchor="start" data-source-width="440" data-source-x="550">
+<tspan x="550" y="239">2  Expose performance gaps</tspan>
+</text>
+<text id="measure-detail" class="" text-anchor="start" data-source-width="445" data-source-x="550">
+<tspan x="550" y="275">Recall@k / nDCG@10 / MRR@10</tspan>
+<tspan x="550" y="301">RAGAS: retrieval + generation</tspan>
+<tspan x="550" y="327">Inspect failures against references</tspan>
+</text>
+<text id="audit-heading" class="heading" text-anchor="start" data-source-width="435" data-source-x="1040">
+<tspan x="1040" y="239">3  Semantic drift audit</tspan>
+</text>
+<text id="audit-detail" class="" text-anchor="start" data-source-width="440" data-source-x="1040">
+<tspan x="1040" y="275">Qualitative + quantitative analysis</tspan>
+<tspan x="1040" y="301">Domain mismatch; missing conditions,</tspan>
+<tspan x="1040" y="327">exceptions and procedural dependencies</tspan>
+</text>
+<polyline id="audit-to-fork" points="1260,345 1260,385 740,385" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="fork-to-neural" points="740,385 340,385 340,440" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="fork-to-symbolic" points="1100,385 1100,440" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text id="neural-heading" class="heading" text-anchor="start" data-source-width="600" data-source-x="130">
+<tspan x="130" y="484">4A  Neural research</tspan>
+</text>
+<text id="symbolic-heading" class="heading" text-anchor="start" data-source-width="610" data-source-x="850">
+<tspan x="850" y="484">4B  Symbolic research</tspan>
+</text>
+<polyline id="neural-guide" points="98,541 98,811" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="symbolic-guide" points="818,541 818,811" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="reranking-marker" cx="98" cy="541" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<ellipse id="adaptation-marker" cx="98" cy="671" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<ellipse id="retrieval-models-marker" cx="98" cy="811" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<ellipse id="graph-marker" cx="818" cy="541" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<ellipse id="ontology-marker" cx="818" cy="671" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<ellipse id="fsm-marker" cx="818" cy="811" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<text id="reranking-text" class="" text-anchor="start" data-source-width="595" data-source-x="130">
+<tspan x="130" y="548" class="subheading">Two-stage retrieval</tspan>
+<tspan x="130" y="578">Hybrid candidate generation, followed by</tspan>
+<tspan x="130" y="608">cross-encoder cross-attention reranking</tspan>
+</text>
+<text id="adaptation-text" class="" text-anchor="start" data-source-width="610" data-source-x="130">
+<tspan x="130" y="678" class="subheading">Domain adaptation + fine-tuning</tspan>
+<tspan x="130" y="708">Bi-encoders, cross-encoders and LLMs</tspan>
+<tspan x="130" y="738">Domain language + downstream task alignment</tspan>
+</text>
+<text id="retrieval-models-text" class="" text-anchor="start" data-source-width="610" data-source-x="130">
+<tspan x="130" y="818" class="subheading">Alternative neural retrieval models</tspan>
+<tspan x="130" y="848">SPLADE: learned sparse representations</tspan>
+<tspan x="130" y="878">ColBERT: token-level late interaction</tspan>
+</text>
+<text id="graph-text" class="" text-anchor="start" data-source-width="610" data-source-x="850">
+<tspan x="850" y="548" class="subheading">Knowledge graphs + graph-based RAG</tspan>
+<tspan x="850" y="578">Explicit relations and source provenance</tspan>
+<tspan x="850" y="608">Retrieve, route and expand linked evidence</tspan>
+</text>
+<text id="ontology-text" class="" text-anchor="start" data-source-width="610" data-source-x="850">
+<tspan x="850" y="678" class="subheading">Ontology-guided representations</tspan>
+<tspan x="850" y="708">Typed entities, relations and actions</tspan>
+<tspan x="850" y="738">Preconditions, exceptions and dependencies</tspan>
+</text>
+<text id="fsm-text" class="" text-anchor="start" data-source-width="610" data-source-x="850">
+<tspan x="850" y="818" class="subheading">FSM extraction + procedural validation</tspan>
+<tspan x="850" y="848">States, transitions and guard conditions</tspan>
+<tspan x="850" y="878">Planned extension: Z3 SMT constraint solving</tspan>
+</text>
+<polyline id="neural-convergence" points="340,910 340,955 720,955 720,995" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="symbolic-convergence" points="1100,910 1100,955 720,955" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="synthesis-panel" x="295" y="1005" width="900" height="150" rx="4" fill="#ecefe6" stroke="#d8dcd2" stroke-width="1.5"/>
+<text id="synthesis-heading" class="heading" text-anchor="middle" data-source-width="840" data-source-x="325">
+<tspan x="745" y="1057">5  Convergence: neurosymbolic procedural RAG</tspan>
+</text>
+<text id="synthesis-detail" class="" text-anchor="middle" data-source-width="840" data-source-x="325">
+<tspan x="745" y="1102">Neural relevance + explicit procedural structure</tspan>
+<tspan x="745" y="1128">Custom evals: grounding, constraint coverage and procedural validity</tspan>
+</text>
+<text id="iteration-footer" class="footer" text-anchor="middle" data-source-width="1250" data-source-x="130">
+<tspan x="755" y="1209">Throughout: evaluate, inspect errors, revise representations and compare again.</tspan>
+</text>
+</svg>

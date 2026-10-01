@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1508" height="1170" viewBox="26 0 1508 1170" role="img" aria-labelledby="title desc">
+<title id="title">Evaluation research: from scores to procedural validity</title>
+<desc id="desc">Research evolution diagram. Solid connectors show capability development; dashed connectors mark research extensions. Read the adjacent webpage for the text overview.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:22px;fill:#626960;font-weight:400}
+.title,.heading,.subheading{font-family:Georgia,'Times New Roman',serif;fill:#222d28}
+.title{font-size:42px;letter-spacing:-1px}.heading{font-size:29px;letter-spacing:-.3px}.subheading{font-size:26px}
+.subtitle{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace;font-size:16px;fill:#315e4c;letter-spacing:.3px}
+.footer,.caption{font-size:19px;fill:#315e4c}
+.accent{fill:#315e4c}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#315e4c" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="26" y="0" width="1508" height="1170" fill="#f7f7f2"/>
+<text id="evaluation-title" class="title" text-anchor="start" data-source-width="1420" data-source-x="70">
+<tspan x="70" y="82">Evaluation research: from scores to procedural validity</tspan>
+</text>
+<text id="evaluation-subtitle" class="subtitle" text-anchor="start" data-source-width="1420" data-source-x="70">
+<tspan x="70" y="117">Aggregate assessment  /  domain references  /  custom evals  /  formal-methods research</tspan>
+</text>
+<ellipse id="metrics-marker" cx="78" cy="178" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<polyline id="metrics-to-references" points="100,178 800,178" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<ellipse id="references-marker" cx="828" cy="178" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<text id="metrics-heading" class="heading" text-anchor="start" data-source-width="650" data-source-x="70">
+<tspan x="70" y="239">1  Standard IR metrics + RAGAS</tspan>
+</text>
+<text id="metrics-detail" class="" text-anchor="start" data-source-width="650" data-source-x="70">
+<tspan x="70" y="275">Recall@k / nDCG@10 / MRR@10</tspan>
+<tspan x="70" y="301">Retrieval + generation assessment</tspan>
+<tspan x="70" y="327">Inspect missing evidence and unsupported answers</tspan>
+<tspan x="70" y="353">Aggregate scores expose performance gaps</tspan>
+</text>
+<text id="references-heading" class="heading" text-anchor="start" data-source-width="650" data-source-x="820">
+<tspan x="820" y="239">2  SME-developed golden references</tspan>
+</text>
+<text id="references-detail" class="" text-anchor="start" data-source-width="650" data-source-x="820">
+<tspan x="820" y="275">Domain questions + applicable source rules</tspan>
+<tspan x="820" y="301">Expected procedural behavior</tspan>
+<tspan x="820" y="327">SME review of reference datasets</tspan>
+<tspan x="820" y="353">Eval-driven experiments and comparisons</tspan>
+</text>
+<polyline id="references-to-diagnostics" points="828,370 828,400 78,400 78,420" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<ellipse id="diagnostics-marker" cx="78" cy="438" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<polyline id="diagnostics-to-contracts" points="100,438 800,438" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+<ellipse id="contracts-marker" cx="828" cy="438" rx="8" ry="8" fill="#f7f7f2" stroke="#315e4c" stroke-width="1.5" stroke-dasharray="7 7"/>
+<text id="diagnostics-heading" class="heading" text-anchor="start" data-source-width="650" data-source-x="70">
+<tspan x="70" y="499">3  Procedural + normative diagnostics</tspan>
+</text>
+<text id="diagnostics-detail" class="" text-anchor="start" data-source-width="650" data-source-x="70">
+<tspan x="70" y="535">Implemented custom deterministic harnesses</tspan>
+<tspan x="70" y="561">Grounding + source consistency + citation support</tspan>
+<tspan x="70" y="587">Constraint recall / entity-action binding</tspan>
+<tspan x="70" y="613">Branch-condition / ordered-step coverage</tspan>
+<tspan x="70" y="639">FSM extraction benchmark core</tspan>
+<tspan x="70" y="665">Evidence-grounded semantic assessment</tspan>
+</text>
+<text id="contracts-heading" class="heading" text-anchor="start" data-source-width="650" data-source-x="820">
+<tspan x="820" y="499">4  Compilation fidelity + contracts</tspan>
+</text>
+<text id="contracts-detail" class="" text-anchor="start" data-source-width="650" data-source-x="820">
+<tspan x="820" y="535">Designed three-layer evaluation specifications</tspan>
+<tspan x="820" y="561">Research: source-to-symbolic compilation fidelity</tspan>
+<tspan x="820" y="587">Consequence-sensitive error analysis</tspan>
+<tspan x="820" y="613">Architecture-neutral evaluation contracts</tspan>
+<tspan x="820" y="639">Planned: Z3 SMT constraint solving</tspan>
+<tspan x="820" y="665">Guards / prerequisites / incompatible conditions</tspan>
+</text>
+<polyline id="example-divider" points="70,710 1470,710" fill="none" stroke="#d8dcd2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="example-heading" class="heading" text-anchor="start" data-source-width="1400" data-source-x="70">
+<tspan x="70" y="774">Why the evolution matters: a plausible answer can omit a required step</tspan>
+</text>
+<text id="example-source" class="" text-anchor="start" data-source-width="450" data-source-x="70">
+<tspan x="70" y="824">Illustrative source + reference</tspan>
+<tspan x="70" y="850">Exception branch: obtain approval</tspan>
+<tspan x="70" y="876">before executing a policy change.</tspan>
+<tspan x="70" y="902">Expected: approval &gt; execution</tspan>
+</text>
+<text id="example-answer" class="" text-anchor="start" data-source-width="400" data-source-x="560">
+<tspan x="560" y="824">Candidate answer</tspan>
+<tspan x="560" y="850">Execute the policy change.</tspan>
+<tspan x="560" y="876">Topic matches; approval omitted.</tspan>
+<tspan x="560" y="902">Observed: execution only</tspan>
+</text>
+<polyline id="example-to-verdict" points="970,850 1030,850" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text id="example-verdict" class="accent" text-anchor="start" data-source-width="410" data-source-x="1060">
+<tspan x="1060" y="824">Custom procedural checks</tspan>
+<tspan x="1060" y="850">FAIL: required approval absent</tspan>
+<tspan x="1060" y="876">Constraint recall fails</tspan>
+<tspan x="1060" y="902">Required step coverage fails</tspan>
+</text>
+<polyline id="source-to-checks" points="295,920 295,960 1220,960 1220,920" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text id="reference-link-label" class="caption" text-anchor="middle" data-source-width="660" data-source-x="470">
+<tspan x="800" y="994">Checks compare observed behavior with source-grounded requirements</tspan>
+</text>
+<text id="evaluation-footer" class="footer" text-anchor="middle" data-source-width="1400" data-source-x="70">
+<tspan x="770" y="1074">Common objective: assess evidence support, rule applicability and procedural validity.</tspan>
+<tspan x="770" y="1100">Throughout: evaluate, inspect errors, refine references and validation, compare again.</tspan>
+<tspan x="770" y="1126">Dashed transition = formal-methods research; Z3 solving remains a planned extension.</tspan>
+</text>
+</svg>

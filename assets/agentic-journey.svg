@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1508" height="1255" viewBox="26 0 1508 1255" role="img" aria-labelledby="title desc">
+<title id="title">Agentic evolution: from pipelines to governed execution</title>
+<desc id="desc">Research evolution diagram. Solid connectors show capability development; dashed connectors mark research extensions. Read the adjacent webpage for the text overview.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:22px;fill:#626960;font-weight:400}
+.title,.heading,.subheading{font-family:Georgia,'Times New Roman',serif;fill:#222d28}
+.title{font-size:42px;letter-spacing:-1px}.heading{font-size:29px;letter-spacing:-.3px}.subheading{font-size:26px}
+.subtitle{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace;font-size:16px;fill:#315e4c;letter-spacing:.3px}
+.footer,.caption{font-size:19px;fill:#315e4c}
+.accent{fill:#315e4c}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#315e4c" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="26" y="0" width="1508" height="1255" fill="#f7f7f2"/>
+<text id="agentic-title" class="title" text-anchor="start" data-source-width="1420" data-source-x="70">
+<tspan x="70" y="82">Agentic evolution: from pipelines to governed execution</tspan>
+</text>
+<text id="agentic-subtitle" class="subtitle" text-anchor="start" data-source-width="1420" data-source-x="70">
+<tspan x="70" y="117">Production orchestration  /  agentic extensions  /  policy optimization + harness governance</tspan>
+</text>
+<ellipse id="static-marker" cx="78" cy="178" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<polyline id="static-to-agentic" points="100,178 800,178" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<ellipse id="agentic-marker" cx="828" cy="178" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<text id="static-heading" class="heading" text-anchor="start" data-source-width="650" data-source-x="70">
+<tspan x="70" y="239">1  Static custom Python RAG</tspan>
+</text>
+<text id="static-detail" class="" text-anchor="start" data-source-width="650" data-source-x="70">
+<tspan x="70" y="275">Service Sage production reference implementation</tspan>
+<tspan x="70" y="301">Retrieve &gt; assemble context &gt; generate &gt; evaluate</tspan>
+<tspan x="70" y="327">Explicit interfaces and module boundaries</tspan>
+<tspan x="70" y="353">Controlled data flow across components</tspan>
+</text>
+<text id="agentic-heading" class="heading" text-anchor="start" data-source-width="650" data-source-x="820">
+<tspan x="820" y="239">2  Multi-step agentic workflows</tspan>
+</text>
+<text id="agentic-detail" class="" text-anchor="start" data-source-width="650" data-source-x="820">
+<tspan x="820" y="275">Extended production RAG with agent behavior</tspan>
+<tspan x="820" y="301">Specified bounded, stateful workflow designs</tspan>
+<tspan x="820" y="327">Tool contracts + verification gates</tspan>
+<tspan x="820" y="353">Retry budgets / abstention / escalation</tspan>
+</text>
+<polyline id="agentic-to-policy" points="828,370 828,410 78,410 78,450" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="agentic-to-governance" points="828,410 828,450" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<ellipse id="policy-marker" cx="78" cy="468" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<ellipse id="governance-marker" cx="828" cy="468" rx="8" ry="8" fill="#315e4c" stroke="#315e4c" stroke-width="1.5"/>
+<text id="policy-heading" class="heading" text-anchor="start" data-source-width="650" data-source-x="70">
+<tspan x="70" y="529">3  Policy optimization through RLVR</tspan>
+</text>
+<text id="policy-detail" class="" text-anchor="start" data-source-width="650" data-source-x="70">
+<tspan x="70" y="565">ART + Unsloth agentic RAG post-training</tspan>
+<tspan x="70" y="591">Custom evals &gt; verifiable rewards &gt; policy updates</tspan>
+<tspan x="70" y="617">Evaluation-informed reward design</tspan>
+<tspan x="70" y="643">Experiment, inspect failures, refine behavior</tspan>
+<tspan x="70" y="669">Presented and taught the training approach</tspan>
+</text>
+<text id="governance-heading" class="heading" text-anchor="start" data-source-width="650" data-source-x="820">
+<tspan x="820" y="529">4  Governed agent harnesses</tspan>
+</text>
+<text id="governance-detail" class="" text-anchor="start" data-source-width="650" data-source-x="820">
+<tspan x="820" y="565">Implemented coding-agent knowledge harness</tspan>
+<tspan x="820" y="591">Policy-as-code + scoped context + persistent memory</tspan>
+<tspan x="820" y="617">Container execution + deterministic validation</tspan>
+<tspan x="820" y="643">Content-hash provenance + review/lifecycle gates</tspan>
+<tspan x="820" y="669">Local pre-commit aligned with Jenkins CI/CD</tspan>
+<tspan x="820" y="695">Research: typed neurosymbolic tool integration</tspan>
+</text>
+<polyline id="policy-convergence" points="345,730 345,780 770,780 770,830" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline id="governance-convergence" points="1145,730 1145,780 770,780" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="agentic-synthesis-panel" x="295" y="840" width="950" height="150" rx="4" fill="#ecefe6" stroke="#d8dcd2" stroke-width="1.5"/>
+<text id="agentic-synthesis-heading" class="heading" text-anchor="middle" data-source-width="890" data-source-x="325">
+<tspan x="770" y="892">Evaluation-guided agentic development</tspan>
+</text>
+<text id="agentic-synthesis-detail" class="" text-anchor="middle" data-source-width="890" data-source-x="325">
+<tspan x="770" y="937">Policy learning improves behavior; harnesses govern execution.</tspan>
+<tspan x="770" y="963">Complementary capabilities across RAG agents and coding-agent workflows.</tspan>
+</text>
+<polyline id="agentic-research-arrow" points="770,1000 770,1045" fill="none" stroke="#8ca08b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7" marker-end="url(#arrow)"/>
+<text id="agentic-research-extension" class="" text-anchor="middle" data-source-width="1250" data-source-x="145">
+<tspan x="770" y="1087">Research extension: state-machine orchestration + typed neurosymbolic tools</tspan>
+<tspan x="770" y="1114.5">Explicit state, constrained actions and verifiable transitions</tspan>
+</text>
+<text id="agentic-footer" class="footer" text-anchor="middle" data-source-width="1400" data-source-x="70">
+<tspan x="770" y="1184">Arrows show expanding capabilities, not a dated chronology or a single deployed system.</tspan>
+<tspan x="770" y="1210">Throughout: specify, evaluate, inspect failures, refine behavior and execution controls.</tspan>
+</text>
+</svg>
